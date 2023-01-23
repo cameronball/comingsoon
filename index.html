@@ -2,7 +2,7 @@
 <html>
 <head>
     <meta charset="utf-8">
-    <title>The Matrix</title>
+    <title>Coming soon...</title>
     <style>
         * {
             margin: 0;
@@ -14,9 +14,16 @@
         }
     </style>
 </head>
-<body>
-    <canvas id="c"></canvas>
-    <h1>Coming Soon</h1>
+<body style="overflow: hidden;height: 100%;">
+    <style>
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@1,900&display=swap');
+</style>
+    <div style="position:relative;text-align:center;color:white;">
+    <h1 style="position:absolute;top:50%;left:50%;transform:translate(-50%, -50%);font-family: 'Source Code Pro', monospace;">coming soon</h1>
+    
+    <canvas id="c" height="965" width="1920"></canvas>
+
+    </div>
     <script>
         var c = document.getElementById('c');
         var ctx = c.getContext('2d');
